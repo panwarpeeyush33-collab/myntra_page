@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo img{
+  width: 110px;
+}
+
+.menubar{
+  display: flex;
+  gap: 30px;
+}
+
+.searchbar{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: aliceblue;
+  width: 400px;
+  height: 40px;
+}
+
+.submenu{
+  display: flex;
+  gap: 20px;
+}
