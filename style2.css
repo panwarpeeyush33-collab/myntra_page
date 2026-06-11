@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700&display=swap");
-
 *{
     margin: 0;
     padding: 0;
@@ -7,15 +5,17 @@
 }
 
 body{
+    width: 100%;
     font-family: "Assistant", sans-serif;
 }
 
-.navbar{
-    height: 80px;
+.navbar {
+    width: 100%;
+   
     display: flex;
     align-items: center;
-    padding: 0 40px;
-    border-bottom: 1px solid #716b6b;
+    padding: 0 20px;
+    border-bottom: 1px solid #ddd;
 }
 
 .logo img{
@@ -60,24 +60,81 @@ body{
 }
 
 .offer{
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .offer img{
-    width: 80%;
+    width: 100%;
     height: auto;
 }
 
 .hero{
     display: flex;
     justify-content: center;
+    margin-top: -100px;
+}
+
+
+.hero img{
+    width: 80%;
+    height: auto;
+}
+
+.discount_gif{
+    width : 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.discount_gif img{
+    width : 70%;
+    margin-top: -90px;
+}
+
+.text1{
+    color: brown;
+    font-weight: bolder;
+    font-size: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.itemz{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    
+}
+
+.mens{
+    display: flex;
+    gap:25px;
+}
+
+.mens img{
+    width: 170px;
+}
+
+.categories{
+    width: 100%;
+    display: flex;
+    justify-content: center;
     margin-top: 10px;
 }
 
-.hero img{
-    width: 90%;
+.deals{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.deals img{
+    width: 190px;
     height: auto;
 }
